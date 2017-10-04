@@ -1,0 +1,19 @@
+Administració de Xarxes
+#######################
+
+Remmina ===> Per entrar a escriptori virtual
+repositori ===>  github.com/joaniznardo/asixm7
+Calculador de mascares ===> http://jodies.de/ipcalc
+
+UF1
+===
+
+route -n ==> Per saber la ruta de sortida d'una conexió
+
+sudo tcpdump -i enp0s8 --> escolta el transit de packets 
+sudo route -n --> taula d'enrutament 
+sudo route del default --> elimina la pasarela per defecte 
+sudo route add default gw 192.168.10.2 --> afegeix un now gw per defecte
+
+
+
